@@ -1,0 +1,7 @@
+*.class
+
+target/
+
+eurekaserver/target/
+
+eurekaclient/target/
