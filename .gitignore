@@ -5,3 +5,10 @@ target/
 eurekaserver/target/
 
 eurekaclient/target/
+
+.idea
+
+*.iml
+
+
+/target/
