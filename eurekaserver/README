@@ -1,0 +1,6 @@
+简单的Eureka例子
+一个EurekaServer
+一个EurekaClient
+
+通过http://localhost:8761/访问EurekaServer
+通过http://localhost:8761/eureka/apps查询所有实例
