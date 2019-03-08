@@ -1,0 +1,11 @@
+server:
+  port: 10002
+
+spring:
+  application:
+    name: erurekaclient2
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/,http://localhost:8762/eureka/

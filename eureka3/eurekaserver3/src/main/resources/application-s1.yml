@@ -1,0 +1,18 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: server1
+
+eureka:
+  instance:
+    hostname: server1
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://server2:8762/eureka/,http://server3:8763/eureka/
+  server:
+      waitTimeInMsWhenSyncEmpty: 0
+      enableSelfPreservation: true

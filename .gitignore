@@ -11,4 +11,7 @@ eurekaclient/target/
 *.iml
 
 
+**/*.iml
+
+
 /target/
