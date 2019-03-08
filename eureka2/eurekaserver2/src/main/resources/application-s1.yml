@@ -3,16 +3,16 @@ server:
 
 spring:
   application:
-    name: eurekaserver1
+    name: server1
 
 eureka:
   instance:
-    hostname: localhost
+    hostname: server1
   client:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:8762/eureka/
+      defaultZone: http://server2:8762/eureka/
   server:
       waitTimeInMsWhenSyncEmpty: 0
-      enableSelfPreservation: false
+      enableSelfPreservation: true
