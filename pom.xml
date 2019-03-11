@@ -11,6 +11,7 @@
         <module>eurekaserver</module>
         <module>eurekaclient</module>
         <module>eureka2</module>
+        <module>eureka3</module>
     </modules>
     <packaging>pom</packaging>
 
