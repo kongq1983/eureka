@@ -4,3 +4,6 @@
 
 通过http://localhost:8761/访问EurekaServer
 通过http://localhost:8761/eureka/apps查询所有实例
+
+
+mvn spring-boot:run -Dspring.profiles.active=s1
