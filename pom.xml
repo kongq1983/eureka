@@ -12,6 +12,9 @@
         <module>eurekaclient</module>
         <module>eureka2</module>
         <module>eureka3</module>
+        <module>feign</module>
+        <module>common</module>
+        <module>feignserver</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -28,6 +31,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
+        <my.version>1.0.0</my.version>
         <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
     </properties>
 
@@ -54,6 +58,13 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>com.kq</groupId>
+            <artifactId>common</artifactId>
+            <version>${my.version}</version>
+        </dependency>
+
     </dependencies>
 
     <build>

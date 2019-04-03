@@ -6,4 +6,8 @@
 通过http://localhost:8761/eureka/apps查询所有实例
 
 
+
 mvn spring-boot:run -Dspring.profiles.active=s1
+
+
+讨论一卡通取限购数量问题  通过站点号 编码  时间
